@@ -1,11 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shibili</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mohammed Shibili — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <div class="container">
+    <header>
+      <a class="brand" href="#">
+        <div class="logo">MS</div>
+        <div>
+          <div class="name">Mohammed Shibili</div>
+          <div class="tag">UI/UX • Frontend • Digital Marketing</div>
+        </div>
+      </a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact" class="primary">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="intro">
+          <h1>Hi — I’m <span class="accent">Mohammed</span>, a UI/UX designer, frontend developer & digital marketer.</h1>
+          <p>I design clean interfaces, build responsive frontends, and run growth-focused marketing campaigns.</p>
+          <div class="cta">
+            <a class="btn" href="#contact">Hire me</a>
+            <a class="btn ghost" href="#work">See work</a>
+          </div>
+        </div>
+
+        <aside class="card-profile">
+          <div class="avatar">MS</div>
+          <div class="profile-name">Mohammed Shibili</div>
+          <div class="profile-role">UI/UX • Frontend • Digital Marketing</div>
+        </aside>
+      </section>
+
+      <section id="about" class="card">
+        <h2>About me</h2>
+        <p>I’m a designer-developer who builds interfaces and frontends with a focus on usability and conversions.</p>
+        <h3>Skills</h3>
+        <ul class="skills">
+          <li>UI/UX Design (Figma, prototyping)</li>
+          <li>Frontend (HTML, CSS, JS, responsive)</li>
+          <li>Digital Marketing (SEO, ads)</li>
+        </ul>
+      </section>
+
+      <section id="work">
+        <h2>Projects</h2>
+        <div class="portfolio-grid">
+          <div class="project card">E-commerce UI</div>
+          <div class="project card">Landing Page</div>
+          <div class="project card">Dashboard UI</div>
+          <div class="project card">Brand Refresh</div>
+          <div class="project card">SEO Campaign</div>
+          <div class="project card">Microinteractions</div>
+        </div>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <p>Want to work together?</p>
+        <input class="input" placeholder="Your email" />
+        <a class="btn" href="mailto:youremail@example.com">Email me</a>
+      </section>
+    </main>
+
+    <footer>
+      <div>© Mohammed Shibili — UI/UX & Frontend</div>
+    </footer>
+  </div>
 </body>
 </html>
