@@ -1,0 +1,112 @@
+/* Simple Portfolio CSS */
+
+body{
+  margin:0;
+  font-family:Inter, sans-serif;
+  background:#0f1724;
+  color:#f8fafc;
+  padding:20px;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:30px;
+}
+
+.logo{
+  background:#06b6d4;
+  padding:10px;
+  border-radius:8px;
+  font-weight:700;
+}
+
+.tag{
+  font-size:12px;
+  color:#94a3b8;
+}
+
+nav a{
+  margin-left:15px;
+  text-decoration:none;
+  color:#94a3b8;
+}
+
+nav a.primary{
+  color:#06b6d4;
+  font-weight:600;
+}
+
+.hero{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  padding:20px;
+  background:#141f33;
+  border-radius:12px;
+  margin-bottom:25px;
+}
+
+.accent{color:#06b6d4;font-weight:bold}
+
+.btn{
+  background:#06b6d4;
+  color:#001;
+  padding:8px 14px;
+  border-radius:6px;
+  text-decoration:none;
+  display:inline-block;
+  margin-right:10px;
+}
+
+.btn.ghost{
+  background:transparent;
+  border:1px solid #94a3b8;
+  color:#94a3b8;
+}
+
+.card{
+  background:#141f33;
+  padding:20px;
+  border-radius:12px;
+  margin-bottom:20px;
+}
+
+.skills li{
+  color:#94a3b8;
+  margin-bottom:6px;
+}
+
+.portfolio-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+}
+
+.project{
+  padding:20px;
+  background:#1b273d;
+  border-radius:10px;
+  text-align:center;
+}
+
+.input{
+  width:100%;
+  padding:8px;
+  border-radius:6px;
+  border:none;
+  margin-bottom:12px;
+}
+
+footer{
+  color:#94a3b8;
+  font-size:13px;
+  text-align:center;
+  margin-top:20px;
+}
